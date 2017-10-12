@@ -61,4 +61,4 @@
      - pip install -U platformio
 
  script:
-     - platformio ci --lib="lib/" --board=megaatmega2560 --board=uno
+     - platformio ci --lib="." --lib="lib/Arduino-GPIO" --lib="lib/Arduino-Scheduler" --lib="lib/Arduino-RTC" --lib="lib/Arduino-SPI" --lib="lib/Arduino-TWI" --lib="lib/ArduinoJson" --board=megaatmega2560 --board=uno
