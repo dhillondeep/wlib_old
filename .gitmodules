@@ -1,0 +1,18 @@
+[submodule "lib/ArduinoJson"]
+	path = lib/ArduinoJson
+	url = https://github.com/bblanchon/ArduinoJson.git
+[submodule "lib/Arduino-GPIO"]
+	path = lib/Arduino-GPIO
+	url = https://github.com/mikaelpatel/Arduino-GPIO.git
+[submodule "lib/Arduino-TWI"]
+	path = lib/Arduino-TWI
+	url = https://github.com/mikaelpatel/Arduino-TWI.git
+[submodule "lib/Arduino-SPI"]
+	path = lib/Arduino-SPI
+	url = https://github.com/mikaelpatel/Arduino-SPI.git
+[submodule "lib/Arduino-Scheduler"]
+	path = lib/Arduino-Scheduler
+	url = https://github.com/mikaelpatel/Arduino-Scheduler.git
+[submodule "lib/Arduino-RTC"]
+	path = lib/Arduino-RTC
+	url = https://github.com/mikaelpatel/Arduino-RTC.git
