@@ -55,6 +55,7 @@
 
  env:
      - PLATFORMIO_CI_SRC=examples/gpio
+     - PLATFORMIO_CI_SRC=examples/scheduler
 
  install:
      - pip install -U platformio
