@@ -9,10 +9,8 @@ void setup(){
 
 void loop(){
     ledPin = HIGH;
-
     delay(1000);
 
     ledPin = LOW;
-
     delay(1000);
 }
