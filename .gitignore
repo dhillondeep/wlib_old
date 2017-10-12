@@ -1,7 +1,12 @@
+<<<<<<< HEAD
 .idea
 .piolibdeps
 CMakeListsPrivate.txt
 src/main.cpp
+=======
+.piolibdeps
+CMakeListsPrivate.txt
+>>>>>>> c2fd28894de8e2ebfdc2655d7cef992a4d46f6ef
 
 # Created by https://www.gitignore.io/api/clion
 

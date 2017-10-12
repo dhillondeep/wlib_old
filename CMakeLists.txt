@@ -50,5 +50,3 @@ add_custom_target(
     COMMAND ${PLATFORMIO_CMD} -f -c clion init --ide clion
     WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
 )
-
-add_executable(${PROJECT_NAME} ${SRC_LIST} src/Test.h)
