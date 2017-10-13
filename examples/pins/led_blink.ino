@@ -6,7 +6,8 @@
  * @section Description
  * wlib LED blink demonstration. It uses OOP for IO management and adds some new
  * method to make life easier when dealing with arduino pins. It also provides
- * operator overloading to make reading and writing easier.
+ * operator overloading to make reading and writing easier. This class
+ * is under wlp namespace so it will only work if you are using wlp namespace
  *
  * @section Circuit
  * Uses built-in LED (D13)
@@ -14,6 +15,8 @@
 
 #include <Wlib.h>
 #include <core/pins/DigitalPins.h>
+
+using namespace wlp;
 
 // create a digital pin object for pin 13
 DigitalPins<BOARD::D13> ledPin;
