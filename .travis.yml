@@ -55,7 +55,7 @@
 
  env:
      - PLATFORMIO_CI_SRC=examples/pins
-     - PLATFORMIO_CI_SRC=examples/scheduler
+     - PLATFORMIO_CI_SRC=examples/tasks
 
  install:
      - pip install -U platformio
