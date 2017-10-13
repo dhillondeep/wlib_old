@@ -16,3 +16,6 @@
 [submodule "lib/Arduino-RTC"]
 	path = lib/Arduino-RTC
 	url = https://github.com/mikaelpatel/Arduino-RTC.git
+[submodule "lib/ResponsiveAnalogRead"]
+	path = lib/ResponsiveAnalogRead
+	url = https://github.com/dxinteractive/ResponsiveAnalogRead.git
